@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body {
+	padding:10px;
+	padding-bottom:60px;	/* Height of the footer */
+}
+#table-content a {
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bold;
+}
+#table-content a:hover {
+	color:#FFF;
+}
+img {
+	border: none;
+	float:left;
+	border-radius:8px;
+	border:1px solid #FFF;
+}
+#container {
+	min-height:100%;
+	position:relative;
+}
+#gallery {
+	clear: both;
+	width: 830px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#pagination{width:800px;margin:5px auto;}
+#pagination a:hover{border:2px solid #FFF;}
+#pagination b{float:left;border:2px solid #00F;padding:2px 3px;margin:0 2px;background-color:#00F;}
+#pagination a{float:left;border:2px solid #03F;padding:2px 3px;margin:0 2px;text-decoration:none;background-color:transparent;color:#FFF}
+
+#table-header{width:800px; margin:0 auto;color:#372412; font-size:18px;text-shadow: 0 2px 1px #FFF; border:1px solid #FFF;}
+#table-header th{padding:10px;background-color:#FF9;}
+#table-content{width:800px; margin:0 auto;font-size:16px;font-weight:bold;}
+
+#imgCars{border:1px solid #CCC;width:512px;height:100px; vertical-align:top;float:left;padding:5px;}
+#nameCars{border:none; margin-left:210px;margin-top:30px;border:none;}
+#priceCars{border:1px solid #CCC;height:100px;padding:5px;vertical-align:middle;}
+#priceCars p{margin-top:25px;}

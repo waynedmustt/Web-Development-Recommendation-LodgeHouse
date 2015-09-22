@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+#body {
+	padding:10px;
+	padding-bottom:60px;	/* Height of the footer */
+}
+h1, h2, h3 {
+	text-transform: lowercase;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+h1 {
+	letter-spacing: -2px;
+	font-size: 3em;
+}
+h2 {
+	letter-spacing: -1px;
+	font-size: 2em;
+}
+h3 {
+	font-size: 1em;
+}
+a {
+	color: #FFEA6F;
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+#container {
+	min-height:100%;
+	position:relative;
+}
+p {
+	margin:0;
+}
+#gallery {
+	clear: both;
+	width: 830px;
+	height: 300px;
+	margin: 0 auto;
+}
+#tahap-ahp {
+	width:820px;
+	font-size:11px;
+	color: #FFEA6F;
+	font-family: Arial, sans-serif;
+	padding:5px;
+	vertical-align:middle;
+}
+#filter-box {
+	margin-top:5px;
+	border:3px solid #000;
+	width:800px;
+	height:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	box-shadow:2px 2px 8px 8px #000;
+	border-radius: 14px;
+	background-color:#FFEA6F;
+	color:#372412;
+}
+#header-filter {
+	padding:8px 15px;
+	font-size:16px;
+	font-weight:bold;
+	border-bottom:1px solid #FFF;
+	border-radius: 10px 10px 0 0;
+	background-color:#630;
+}
+#header-filter p {
+	color:#FFEA6F;
+	margin:0;
+	padding:0;
+}
+.content-filter {
+	border-right:1px solid #372412;
+	height:190px;
+	font-size:14px;
+	padding:15px 15px 5px 15px;
+}
+.content-filter p {
+	font-weight:bold;
+	font-size:16px;
+}
+.content-filter ul {
+	list-style:none outside none;
+	padding:0;
+	float:left;
+	margin-top:5px;
+}
+.content-filter li {
+	margin:5px 0;
+}
+.filter1 {
+	width:330px;
+	float:left;
+	height:219px;
+}
+#jenis-mobil {
+	width:300px;
+	height:110px;
+	border-bottom:1px solid #372412;
+}
+#jenis-transmisi {
+	width:150px;
+	float:left;
+}
+#jenis-bahan-bakar {
+	width:300px;
+	height:60px;
+}
+#jenis-bahan-bakar ul {
+	width:280px;
+}
+#jenis-bahan-bakar li {
+	float:left;
+	margin-right:25px;
+}
+#rentang-harga {
+	float:left;
+	width:260px;
+	height:100px;
+	padding-right:0;
+	border-right:none;
+}
+[type=text] {
+border:0;
+text-align:center;
+background-color:transparent;
+color:#372412;
+font-weight:bold;
+}
+#slider-range {
+	margin-top:10px;
+}
+.form-button {
+	background-color: #235485;
+	border-radius: 4px 4px 4px 4px;
+	color: #FFFFFF;
+	font-size: 1em;
+	margin-bottom: 10px;
+	padding: 2px 10px;
+	float:right;
+	margin:60px 20px 0 0;
+}
+.form-button:hover {
+	background-color:#28C8D0;
+}

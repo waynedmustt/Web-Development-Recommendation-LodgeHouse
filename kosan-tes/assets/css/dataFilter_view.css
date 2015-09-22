@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body {
+	padding:10px;
+	padding-bottom:60px;	/* Height of the footer */
+}
+img {
+	border: none;
+}
+#container {
+	min-height:100%;
+	position:relative;
+}
+#gallery {
+	clear: both;
+	width: 830px;
+	height: 300px;
+	margin: 0 auto;
+}
+#amount {
+	border:0;
+	background-color:transparent;
+	color:#FFF;
+	font-weight:bold;
+	width:200px;
+}
+select {
+	background: none repeat scroll 0 0 #372412;
+	border: medium none;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: 0 0 10px #FFF;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	padding: 0px 0px 0px 10px;
+	text-align: justify;
+	text-transform: lowercase;
+	width:160px;
+}
+option {
+	text-transform: lowercase;
+}
+select:focus {
+	background-color: #FFFFFF;
+	box-shadow: 0 0 20px #FF0000;
+	color: #0000FF;
+}
+span {
+	margin-right:5px;
+}
+fieldset p {
+	float:left;
+	margin-left:20px;
+}
+.form-button {
+	background-color: #235485;
+	border-radius: 4px 4px 4px 4px;
+	color: #FFFFFF;
+	font-size: 1em;
+	margin-bottom: 10px;
+	padding: 2px 10px;
+	float:right;margin-right:20px;margin-top:10px;
+}
+.form-button:hover {
+	background-color:#28C8D0;
+}
+#filter-box {
+	width:650px;
+	text-align:justify;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#FFEA6F;
+	color:#372412;
+	padding:0;
+	border:5px solid #372412;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:2px 2px 8px 8px #000;
+}
+#filter-box ul {
+	list-style:none;
+	padding:0;
+}
+#filter-box li {
+	float:left;
+	width:270px;
+	margin:5px 15px;
+	text-align:right;
+}
+#rentang-harga {
+	float:right;
+	width:610px;
+	border-top:1px solid #372412;
+	padding:20px 20px 0 20px;
+}
+#rentang-harga input {
+	font-weight:bold;
+	background-color:transparent;
+	border:0;
+	width:80px;
+	list-style:none;
+}
+
+#slider-range{width:330px;margin-left:185px; float:left;}
